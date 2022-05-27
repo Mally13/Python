@@ -8,7 +8,6 @@ def read_file_content(filename):
     f = open(filename,'r')
     content=f.read()
     f.close()
-    print(content)
     return content
     
 def count_words(fpath):
